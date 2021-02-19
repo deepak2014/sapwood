@@ -1,0 +1,96 @@
+.sapWoodApp {
+  width: 1000px;
+  outline: 1px solid #80808038;
+  margin: auto;
+}
+
+.sapWoodApp .header .logoHolder {
+  width: 150px;
+  border-right: 5px solid #212529;
+}
+
+.sapWoodApp .header .title {
+  margin-top: 6px;
+  font-size: 44px;
+  margin-left: 38px;
+}
+
+.sapWoodApp .header .logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #212529;
+  color: #e7e0e0;
+  line-height: 70px;
+  text-align: center;
+  margin: auto;
+}
+
+.sapWoodApp .furitHolder {
+  position: relative;
+}
+
+.sapWoodApp .furitHolder .fruitImageContext {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.sapWoodApp .furitHolder .fruitImageContext.right {
+  right: 0;
+}
+
+.sapWoodApp .furitHolder .fruitImageContext.left {
+  left: 0;
+}
+
+.sapWoodApp .furitHolder .fruitImageContext .fruitHeading {
+  font-size: 65px;
+  margin-top: 86px;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+.sapWoodApp .furitHolder .fruitImageContext p.fruitText {
+  line-height: 26px;
+  font-size: 20px;
+  width: 376px;
+  margin: auto;
+  text-align: left;
+}
+
+.sapWoodApp .calories {
+  width: 98%;
+  border-radius: 15px;
+  margin: auto;
+  padding: 17px;
+  margin-top: 9px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sapWoodApp .calories table tbody td.right {
+  text-align: right;
+}
+
+.sapWoodApp .calories table tbody td.indent15 {
+  text-indent: 15px;
+}
+
+.sapWoodApp .calories table tbody td {
+  border-bottom: 2px solid #e7e0e0;
+  padding: 3px;
+}
+
+.sapWoodApp .calories {
+  font-size: 17px;
+}
+
+.sapWoodApp .calories .bold1 {
+  font-weight: 500;
+}
+
+.sapWoodApp .border1 {
+  border-bottom: 2px solid #e7e0e0
+}
